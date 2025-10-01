@@ -1,16 +1,15 @@
-# Streamlit and web UI
 streamlit==1.26.0
-rich==14.1.0
+rich<14,>=10.14.0
 markdown-it-py==4.0.0
 mdurl==0.1.2
 pygments==2.19.2
-
-# Core data and ML libraries
 numpy==1.24.4
 pandas==2.0.3
 scikit-learn==1.3.2
 catboost==1.2.5
 joblib==1.3.2
+
+
 
 
 
