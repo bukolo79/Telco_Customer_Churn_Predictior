@@ -1,16 +1,19 @@
 {
-  "name": "Telco Churn Predictor Dev Container",
-  "dockerFile": "Dockerfile",
-  "context": "..",
-  "appPort": [8501],
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
+  "name": "Telco Customer Churn Predictor",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "git": "latest"
   },
-  "extensions": [
-    "ms-python.python",
-    "ms-python.vscode-pylance",
-    "ms-toolsai.jupyter"
-  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
   "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
-  "remoteUser": "root"
+  "remoteUser": "vscode"
 }
