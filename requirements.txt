@@ -1,18 +1,16 @@
-# Streamlit
+# Core
 streamlit==1.26.0
-
-# Core dependencies
 numpy==1.24.4
 pandas==2.0.3
+scikit-learn==1.3.2
 scipy==1.11.1
 joblib==1.3.2
 
 # Machine Learning
-scikit-learn==1.3.3
 catboost==1.2.5
 category-encoders==2.7.0
 
-# Streamlit support libraries
+# Visualization / Rich text
 rich==13.9.4
 markdown-it-py==4.0.0
 mdurl==0.1.2
