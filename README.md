@@ -64,4 +64,4 @@ Predicting which customers are likely to leave a telecom company (churn) to help
 The CatBoost churn model provides actionable insights, helping telecoms proactively retain customers, reduce churn, and protect revenue.
 
 **🚀 Live Demo**
-👉 
+👉 https://telcocustomerchurnpredictor.streamlit.app/
