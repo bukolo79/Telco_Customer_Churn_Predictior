@@ -1,9 +1,11 @@
 {
   "name": "Telco Customer Churn Predictor",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "features": {
-    "git": "latest"
+    "git": "latest",
+    "docker-in-docker": "latest"
   },
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -14,6 +16,6 @@
       ]
     }
   },
-  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "forwardPorts": [8501],
   "remoteUser": "vscode"
 }
