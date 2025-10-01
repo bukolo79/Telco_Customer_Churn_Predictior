@@ -1,0 +1,16 @@
+{
+  "name": "Telco Churn Predictor Dev Container",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "appPort": [8501],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter"
+  ],
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "remoteUser": "root"
+}
