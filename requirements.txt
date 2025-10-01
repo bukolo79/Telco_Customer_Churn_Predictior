@@ -11,15 +11,14 @@ joblib==1.3.2
 catboost==1.2.5
 scipy==1.11.1
 
+# Categorical encoders
+category-encoders==2.8.1
+
 # Optional dependencies for Streamlit
 rich>=10.14.0,<14
 markdown-it-py==4.0.0
 mdurl==0.1.2
 pygments==2.19.2
-
-# Categorical encoders (if you used any)
-category_encoders==2.7.2
-
 
 
 
