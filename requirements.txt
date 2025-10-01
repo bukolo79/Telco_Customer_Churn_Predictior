@@ -2,7 +2,7 @@
 setuptools>=68.0.0
 wheel
 
-# Streamlit for the app
+# Streamlit (compatible with Python 3.11)
 streamlit==1.26.0
 
 # Data processing
@@ -12,15 +12,15 @@ scipy>=1.10.1
 
 # Machine learning
 scikit-learn>=1.7,<1.8
-category-encoders>=2.8.2
+category-encoders==2.8.1
 
 # Visualization
 matplotlib>=3.7.2
 seaborn>=0.12.2
 plotly>=5.15.0
 
-# Optional: For nicer exception logging
-rich>=14.0.0
+# Logging (compatible with streamlit 1.26)
+rich>=10.14.0,<14
 markdown-it-py>=2.2.0
-pygments>=2.13.0
+pygments>=2.13.0,<3
 mdurl~=0.1
