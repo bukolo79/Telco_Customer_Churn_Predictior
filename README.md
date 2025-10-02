@@ -47,11 +47,13 @@ Predicting which customers are likely to leave a telecom company (churn) to help
 
 **📈 Key Metrics at a Glance**
 
-| Model            | Accuracy | Precision | Recall | F1 Score | ROC AUC |
-| ---------------- | -------- | --------- | ------ | -------- | ------- |
-| CatBoost         | 0.776    | 0.568     | 0.650  | 0.606    | 0.841   |
-| GradientBoosting | 0.769    | 0.554     | 0.660  | 0.602    | 0.840   |
-| LightGBM         | 0.779    | 0.577     | 0.634  | 0.604    | 0.835   |
+| Model               | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+| ------------------- | -------- | --------- | ------ | -------- | ------- |
+| **CatBoost**        | 0.776    | 0.568     | 0.650  | 0.606    | 0.841   |
+| Gradient Boosting   | 0.769    | 0.554     | 0.660  | 0.602    | 0.840   |
+| LightGBM            | 0.779    | 0.577     | 0.634  | 0.604    | 0.835   |
+| Random Forest       | 0.765    | 0.546     | 0.684  | 0.607    | 0.828   |
+| Logistic Regression | 0.743    | 0.511     | 0.765  | 0.612    | 0.838   |
 
 **🛠 Recommendations & Future Work**
 
@@ -61,7 +63,7 @@ Predicting which customers are likely to leave a telecom company (churn) to help
 * Deploy model for real-time churn monitoring
 
 **🎯 Outcome**
-The CatBoost churn model provides actionable insights, helping telecoms proactively retain customers, reduce churn, and protect revenue.
+The **CatBoost churn predictor** provides telecom operators with actionable insights to target at-risk customers, improve loyalty, and reduce churn. With deployment-ready pipelines, this solution enables **real-time churn monitoring** and supports data-driven decision-making for sustainable growth.
 
 **🚀 Live Demo**
 👉 https://telcocustomerchurnpredictor.streamlit.app/
