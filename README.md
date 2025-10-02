@@ -55,6 +55,8 @@ Predicting which customers are likely to leave a telecom company (churn) to help
 | Random Forest       | 0.765    | 0.546     | 0.684  | 0.607    | 0.828   |
 | Logistic Regression | 0.743    | 0.511     | 0.765  | 0.612    | 0.838   |
 
+👉 CatBoost selected as the final model because it delivered the most consistent balance across metrics, especially ROC AUC (0.841), making it reliable for deployment.
+
 **🛠 Recommendations & Future Work**
 
 * Target high-risk customers with retention campaigns
